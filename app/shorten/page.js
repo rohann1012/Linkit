@@ -53,7 +53,8 @@ const Shorten = () => {
 
             // Handle successful response
             if (result.success) {
-                setGenerated(`${process.env.NEXT_PUBLIC_HOST}/${shorturl}`);
+                const baseUrl = process.env.NEXT_PUBLIC_HOST || window.location.origin;
+                setGenerated(`${baseUrl}/${shorturl}`);
                 seturl("");
                 setshorturl("");
                 alert('URL shortened successfully!');
