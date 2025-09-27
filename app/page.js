@@ -34,7 +34,7 @@ export default function Home() {
           <div className="max-w-2xl text-center space-y-6">
             <p className="text-lg lg:text-xl text-gray-200 leading-relaxed">
               Tired of URL shorteners that track your every move or demand endless sign-ups? 
-              We get it. That's why we've built the most straightforward URL shortener in the world.
+              We get it. That&apos;s why we&apos;ve built the most straightforward URL shortener in the world.
             </p>
             
             {/* Features Grid */}
